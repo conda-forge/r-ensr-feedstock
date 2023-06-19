@@ -1,11 +1,11 @@
-About r-ensr
-============
+About r-ensr-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ensr-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/dewittpe/ensr
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ensr-feedstock/blob/main/LICENSE.txt)
 
 Summary: Elastic net regression models are controlled by two parameters, lambda, a measure of shrinkage, and alpha, a metric defining the model's location on the spectrum between ridge and lasso regression. glmnet provides tools for selecting lambda via cross validation but no automated methods for selection of alpha.  Elastic Net SearcheR automates the simultaneous selection of both lambda and alpha. Developed, in part, with support by NICHD R03 HD094912.
 

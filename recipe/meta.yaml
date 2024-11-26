@@ -13,16 +13,14 @@ source:
   sha256: e88ec58adb7e961be5ab1d96d1480bc204899461beb9355599c7afcd750c68a1
 
 build:
-  number: 4
+  number: 5
   noarch: generic
+  script: R CMD INSTALL --build .
   rpaths:
     - lib/R/lib/
     - lib/
 
 requirements:
-  build:
-    - {{ posix }}zip               # [win]
-
   host:
     - r-base
     - r-data.table
